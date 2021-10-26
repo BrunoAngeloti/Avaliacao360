@@ -8,6 +8,7 @@
 
 # O que é?
 -  O site foi criado com o intuito de de facilitar o método de avaliação dos Petianos do PET de engenharia de computação da UFES.
+-  Todo semestre do ano, o PET faz uma avaliação onde todos avaliam todos, referente a como eles estão se comportando dentro do PET. Antes da ideia do site, o Tutor tinha que criar um Forms do Google, esperar que todos avaliassem e depois pegar os resultados, separar por petianos e enviar diretamente para os mesmos. Com o site, isso foi facilitado e conseguiu-se manter o sigilo total.
 
 # Como funciona?
 - Os usuários Petiano e Tutor pode acessar suas avaliações de períodos anteriores.
