@@ -10,16 +10,16 @@
 -  Todo semestre do ano, o PET faz uma avaliação onde todos avaliam todos, referente a como eles estão se comportando dentro do PET. Antes da ideia do site, o Tutor tinha que criar um Forms do Google, esperar que todos avaliassem e depois pegar os resultados, separar por petianos e enviar diretamente para os mesmos. Com o site, isso foi facilitado e conseguiu-se manter o sigilo total.
 
 # Como funciona?
-- Os usuários Petiano e Tutor pode acessar suas avaliações de períodos anteriores.
+- Os usuários Petiano e Tutor podem acessar suas avaliações de períodos anteriores.
 <img src="images/MinhasAvaliacoes.png" width="100%">
 <br>
 
-- Os usuários Petiano e Tutor pode avaliar outros colegas caso o Tutor tenha liberado uma nova avaliação.
+- Os usuários Petiano e Tutor podem avaliar outros colegas caso o Tutor tenha liberado uma nova avaliação.
 <img src="images/Avaliacao1.png" width="100%">
 <img src="images/Avaliacao2.png" width="100%">
 <br>
 
-- O usuário Tutor tem uma aba de administração que pode Excluir pessoas, liberar o cadastro na plataforma ou iniciar/finalizar uma avaliação
+- O usuário Tutor tem uma aba de administração que pode excluir pessoas, liberar o cadastro na plataforma ou iniciar/finalizar uma avaliação
 <img src="images/Adm.png" width="100%">
 <br>
 
@@ -32,6 +32,7 @@
 # Desenvolvedores
 - Bruno Angeloti
 - André Louis
+- André Cunha
 
 # Designers
 - Bruno Angeloti
