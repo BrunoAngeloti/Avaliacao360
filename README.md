@@ -1,5 +1,4 @@
 # Avaliação 360 PET - Eng. Comp.
-## Método prático de avaliação
 
 # Tecnologias
 - ReactJs
