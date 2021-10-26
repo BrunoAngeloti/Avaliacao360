@@ -1,0 +1,387 @@
+.container {
+    display: flex;
+    width:100%;
+    height: 100vh;
+    flex-direction: column;
+    background-image: url("../../public/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.header{
+    width:100%;
+    display:flex;
+    justify-content: flex-end;
+    padding-right: 4rem;
+    color: var(--Text);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 1.3rem;
+    margin:8px;
+    height:10vh;
+
+}
+.header h1{
+    padding:0px;
+    margin:0px;
+}
+
+.content {
+    display: flex;
+    width: 100%;
+    height:100%;
+    flex-direction: row;
+}
+
+.leftContent{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items:center;
+    width: 40%;
+    height:90vh;
+    
+}
+
+.leftContent img{
+    width: 60%;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    width: 100%;
+    align-items: center;
+}
+
+
+
+.buttons button{
+    width: 230px;
+    height: 80px;
+    border-radius:8px;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 1.4rem;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transition: 0.4s;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    justify-content: center;
+    padding: 0px 15px;
+}
+
+.buttons button:disabled{
+    opacity: 0.5;
+    cursor:not-allowed;
+}
+
+.buttons button:hover{
+    transform: translateY(-5px);
+    filter: brightness(90%);
+}
+
+.inicia {
+    background-color: var(--Dark-blue);
+    color: var(--White-Background);
+}
+
+.finaliza {
+    background-color: transparent;
+    border: 4px solid var(--Red) !important;
+    color: var(--Red);
+}
+
+.rightContent {
+    width:60%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.boxRightContent {
+    width: 90%;
+    height:90%;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: inset 10px 10px 20px rgba(0,0,0,0.25);
+    gap: 30px;
+    padding: 40px 60px 40px 60px;
+}
+
+.listPetianos {
+    display: flex;
+    height:88%;
+    overflow-y: auto;
+    width: 100%;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.footer{
+    display: flex;
+    height:12%;
+    width: 100%;
+    align-items: center;
+    justify-content:center;
+}
+
+.footer button{
+    height:100%;
+    width: 30%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: var(--White-Background);
+    border: none;
+    border-radius:5px;
+    transition: 0.4s;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.footer button:hover{
+    transform: translateY(-5px);
+    filter: brightness(90%);
+}
+
+.buttonLib{
+    background-color: var(--Dark-blue); 
+}
+
+.buttonBloq{
+    background-color: var(--Red);
+}
+
+.boxPetianoDisable{
+    width:100%;
+    display: flex;
+    height: 10%;
+    justify-content: space-between;
+    background-color:transparent;
+    border-width: 0px;
+    border-bottom-width: 4px;
+    border-color:#000;
+    border-style: solid;
+    align-items: center;
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+
+.boxPetianoDisable img{
+    width:32px;
+    cursor:pointer;
+}
+
+.boxPetianoDisable h2{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: var(--Text);  
+}
+
+.boxPetiano {
+    width:100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    background-color:transparent;
+    border-width: 0px;
+    border-bottom-width: 4px;
+    border-color:#000;
+    border-style: solid;
+    align-items: center;
+}
+
+.boxPetiano img{
+    width:32px;
+    cursor:pointer;
+}
+
+.boxPetiano h2{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: var(--Text);  
+}
+
+@media (max-width: 1680px){
+    .buttons button{
+        width: 210px;
+        height: 70px;
+        font-size: 1.3rem;
+    }
+    .footer button{
+        width: 40%;
+        font-size: 1.0rem;
+    }
+    .boxPetiano img{
+        width:20px;
+    }
+    .boxPetiano h2{
+        font-size: 1.1rem;
+    }
+    .leftContent img{
+        width: 50%;
+    }
+    .header{
+        height:15vh;
+    }
+    .boxRightContent {
+        height:85%;
+    }
+    .rightContent {
+        height:85vh;
+    }
+    .leftContent{
+        height:85vh;      
+    }
+    .boxPetianoDisable img{
+        width:20px;
+    }
+    .boxPetianoDisable h2{
+        font-size: 1.1rem;
+    }
+    
+}
+
+@media (max-width: 1000px){
+    .leftContent img{
+        display:none;
+    }
+}
+
+@media (max-width: 750px){
+    .header {
+        height:10vh;
+        width: 100%;
+    }
+    .header h1{
+        font-size:1.6rem;
+    }
+    .content {
+        flex-direction: column;
+        align-items: center;
+        height:90vh;
+        gap: 20px;
+    }
+    .buttons{
+        flex-direction: row;
+        justify-content: center;
+        padding: 0px 10px;
+        width: 100%;
+    }
+    .buttons button{
+        width: 80%;
+        height: 100%;
+        font-size: 1.3rem;
+    }
+    .footer button{
+        width: 40%;
+        font-size: 1.0rem;
+    }
+    .boxPetiano img{
+        width:20px;
+    }
+    .boxPetiano h2{
+        font-size: 1.1rem;
+    }
+    .boxPetianoDisable img{
+        width:20px;
+    }
+    .boxPetianoDisable h2{
+        font-size: 1.1rem;
+    }
+    .leftContent{
+        width:100%;
+        align-items: center;
+        justify-content:center;
+    }
+    .rightContent {
+        padding: 0px;
+        margin: 0px;
+        width: 90%;
+    }
+    
+    .boxRightContent {
+        padding: 40px 20px 40px 20px;
+        margin: 0px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 500px){
+    .header {
+        height:10vh;
+        width: 100%;
+    }
+    .header h1{
+        font-size:1.0rem;
+    }
+    .content {
+        flex-direction: column;
+        align-items: center;
+        height:90vh;
+        gap: 20px;
+    }
+    .buttons{
+        flex-direction: row;
+        justify-content: center;
+        padding: 0px 5px;
+        gap:1px;
+    }
+    .buttons button{
+        width: 50%;
+        height: 100%;
+        font-size: 0.6rem;
+    }
+    .finaliza {
+        border: 2px solid var(--Red) !important;
+    }
+    .footer button{
+        width: 40%;
+        font-size: 0.7rem;
+    }
+    .boxPetiano img{
+        width:15px;
+    }
+    .boxPetiano h2{
+        font-size: 0.7rem;
+    }
+    .boxPetianoDisable img{
+        width:5px;
+    }
+    .boxPetianoDisable h2{
+        font-size: 0.7rem;
+    }
+    .leftContent{
+        width:100%;
+        align-items: center;
+        justify-content:center;
+    }
+    .rightContent {
+        padding: 0px;
+        margin: 0px;
+        width: 90%;
+    }
+    
+    .boxRightContent {
+        padding: 40px 20px 40px 20px;
+        margin: 0px;
+        width: 100%;
+    }
+}

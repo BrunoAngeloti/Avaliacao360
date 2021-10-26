@@ -1,0 +1,96 @@
+.container{
+    height:100vh;
+    width:200px;
+    background-color: var(--Verde-Pet);
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: space-around;
+    padding: 10px 0px 10px 0px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction:column;
+    width:200px;
+    margin-bottom: 40px;
+}
+
+.boxLogo {
+    display:flex;
+    justify-content: center;
+    width:100%;
+}
+
+.buttonLogout{
+    width: 80%;
+    background-color:var(--Red);
+    height:50px;
+    border-radius:10px;
+    border: none;
+    box-shadow: inset 5px 5px 4px rgba(0,0,0,0.25);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: var(--White-Background);
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.buttonLogout:hover{
+    filter: brightness(90%);
+    box-shadow: 5px 5px 4px rgba(0,0,0,0.25);
+   
+}
+
+@media (max-width: 1680px){
+    .container {
+        width:180px;
+    }
+    .boxLogo img{
+        width:50%;
+    }
+    .buttons{
+        margin-bottom: 35px;
+    }
+    .buttonLogout{
+        width: 75%;
+        height:45px;
+        font-size: 1.0rem;
+    }
+}
+
+
+@media (max-width: 1380px){
+    .container {
+        width:160px;
+    }
+    .boxLogo img{
+        width:40%;
+    }
+    .buttons{
+        margin-bottom: 30px;
+    }
+    .buttonLogout{
+        width: 70%;
+        height:40px;
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 500px){
+    .container {
+        width:80px;
+    }
+    .boxLogo img{
+        width:40%;
+    }
+    .buttons{
+        margin-bottom: 35px;
+    }
+    .buttonLogout{
+        width: 70%;
+        height:30px;
+        font-size:0.7rem;
+    }
+}

@@ -1,0 +1,57 @@
+.cardNames {
+    width:260px;
+    height:150px;
+    background-color: rgb(202, 202, 202);
+    border-radius: 9px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    z-index: 1;
+    flex-direction:column;
+    animation-duration: 1s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.imagem{
+    width:60px;
+    height:60px;
+    border-radius: 50%;
+    margin-bottom:5px;
+    background-color: rgb(165, 165, 165);
+}
+
+.nome{
+    width: 80%;
+    height:15px;
+    background-color: rgb(165, 165, 165);
+}
+
+@keyframes slidein {
+    from {
+        opacity: 0.8;
+    }
+    to {
+        opacity: 0.3;
+    }
+}
+
+@media (max-width: 500px) {
+    .cardNames {
+        width:160px;
+        height:75px;
+        border-radius: 6px;
+    }
+    .imagem{
+        width:25px;
+        height:25px;
+    }
+
+    .nome {
+        width: 70%;
+        height:5px;
+    }
+}

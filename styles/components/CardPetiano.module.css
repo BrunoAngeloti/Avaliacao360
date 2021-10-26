@@ -1,0 +1,62 @@
+
+.cardNames {
+    width:260px;
+    height:150px;
+    background-color: var(--Dark-blue);
+    border-radius: 9px;
+    border: none;
+    margin: 5px;
+    z-index: 1;
+    transition: 0.4s;
+}
+
+.cardNames:hover {
+    transform: translateY(-8px);
+    cursor: pointer;
+}
+
+.cardNames:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.boxPhoto {
+    display:flex;
+    justify-content: center;
+
+}
+
+.box {
+    margin:0px;
+    padding: 0px;
+}
+
+.Photo {
+    width:60px;
+    height:60px;
+    border-radius: 50%;
+    margin:0;
+}
+
+.boxNome {
+    color: #FFF;
+    font-size: 17px;
+    margin:5px;
+    padding: 0px;
+}
+
+@media (max-width: 500px) {
+    .cardNames {
+        width:160px;
+        height:75px;
+        border-radius: 6px;
+    }
+    .Photo{
+        width:25px;
+        height:25px;
+    }
+
+    .boxNome {
+        font-size: 12px;
+    }
+}

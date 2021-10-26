@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+:root {
+  --White-Background: #F4F4F4;
+  --Dark-blue: #184655;
+  --Verde-Pet: #00B19F;
+  --Text: #212121;
+  --Red: #A4303F;
+}
+
+.MuiRating-icon{
+  margin: 10px;
+}
+
+.MuiRating-iconFilled{
+  color: #00B19F !important;
+}
+
+.MuiRating-iconEmpty{
+  color: #535353 !important;
+}
+

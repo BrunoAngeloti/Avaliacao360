@@ -1,0 +1,45 @@
+.container {
+    margin: 15px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.container p{
+    color: var(--Text);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size:1.1rem;
+}
+
+.vote{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.vote h3{
+    color: var(--Text);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size:1.2rem;
+    padding: 0;
+    margin: 0;
+}
+
+@media (max-width: 800px) {
+    .container {
+        width: 70%;
+    }
+}
+
+@media (max-width: 500px) {
+    .container {
+        width: 70%;
+    }
+}

@@ -1,0 +1,220 @@
+.container {
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: var(--White-Background);
+}
+
+.container img {
+  width: 60%;
+}
+
+.boxLog {
+  display:flex;
+  width: 40%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+} 
+
+.boxLog h3{
+  color: var(--Text);
+  font-family: 'Poppins', sans-serif;
+  margin-top: 25px;
+  margin-bottom: 40px;
+  font-size: 1.4rem;
+} 
+
+.boxLog img{
+  width: 40%;
+  
+} 
+
+.boxLog button{
+  display: flex;
+  border: 0;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.25);
+  border-radius: 2px;
+  width: 60%;
+  height: 60px;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 5px;
+  cursor: pointer;
+  color: var(--Text);
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  transition: 0.4s;
+}
+
+.boxLog button:hover{
+  transform: translateY(-5px);
+  filter:brightness(85%);
+}
+
+.boxLog button img{
+  width: 32px;
+  margin-right: 20px;
+}
+
+.buttonLogin {
+  background-color: #FFF;
+}
+
+.perfil{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 40px;
+  justify-content: space-around;
+  width: 60%;
+}
+
+.titles{
+  margin-right: 30px;
+}
+
+.titles h1{
+  color: var(--Dark-blue);
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 2rem;
+  margin: 0;
+}
+
+.titles h2{
+  color: var(--Text);
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 1.5rem;
+  
+  margin: 0;
+}
+
+.header img{
+  width: 80px;
+  height: 80px;
+  border-radius:50%;
+}
+
+@media (max-width: 1220px){
+  .titles h1{
+    font-size: 1.7rem;
+  }
+  
+  .titles h2{
+    font-size: 1.2rem;
+  }
+  .header img{
+    width: 70px;
+    height: 70px;
+    border-radius:50%;
+  }
+}
+
+
+@media (max-width: 1140px){
+  .boxLog button{
+    font-size: 0.8rem;
+  }
+  .boxLog button img{
+    width: 28px;
+  }
+}
+
+@media (max-width: 1060px){
+  .titles h1{
+    font-size: 1.6rem;
+  }
+  
+  .titles h2{
+    font-size: 1.1rem;
+  }
+  
+}
+
+
+@media (max-width: 1024px){
+  .people {
+    display:none;
+  }
+  .boxLog img{
+    width: 40%;
+    
+  } 
+  .boxLog{
+    width:100%;
+  }
+  .boxLog button{
+    width: 60%; 
+    font-size: 1rem; 
+  }
+  .boxLog button img{
+    width: 32px;
+  }
+  
+  .header img{
+    width: 70px;
+    height: 70px;
+  }
+}
+
+@media (max-width: 462px){
+  .boxLog button{
+    width: 70%; 
+    font-size: 0.8rem; 
+  }
+  .boxLog button img{
+    width: 26px;
+  }
+  .titles h1{
+    font-size: 1.4rem;
+  }
+  
+  .titles h2{
+    font-size: 0.9rem;
+  }
+  .header img{
+    width: 60px;
+    height: 60px;
+  }
+}
+
+@media (max-width: 420px){
+  .header{
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  .titles{
+    width:100%;
+    margin-right: 0;
+    justify-content:center;
+    align-self: center;
+  }
+  .titles h1{
+    display: flex;
+    justify-content: center;
+  }
+  .titles h2{
+    display: flex;
+    justify-content: center;
+  }
+  .header img{
+    margin-top: 10px;
+  }
+}
+
+

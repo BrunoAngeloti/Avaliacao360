@@ -1,0 +1,272 @@
+.detailsUp{
+    width:25px;
+    display: flex;
+    align-self: flex-end;
+    right:0;
+    height:25px;
+    background-color: var(--White-Background);
+}
+.detailsUp div{
+    width:100%;
+    background-color: var(--Verde-Pet);
+    border-radius: 0px 0px 30px 0px;
+}
+.detailsUpDesactived{
+    width:25px;
+    display: flex;
+    align-self: flex-end;
+    right:0;
+    height:25px;
+    background-color: var(--White-Background);
+}
+.detailsUpDesactived div{
+    width:100%;
+    background-color: var(--Verde-Pet);
+    border-radius: 0px;
+}
+
+
+.detailsDown{
+    width:25px;
+    display: flex;
+    align-self: flex-end;
+    right:0;
+    height:25px;
+    background-color: var(--White-Background);
+    margin-bottom: 10px;
+}
+.detailsDown div{
+    width:100%;
+    background-color: var(--Verde-Pet);
+    border-radius: 0px 30px 0px 0px;
+}
+.detailsDownDesactived{
+    width:25px;
+    display: flex;
+    align-self: flex-end;
+    right:0;
+    height:25px;
+    background-color: var(--White-Background);
+    margin-bottom: 10px;
+}
+.detailsDownDesactived div{
+    width:100%;
+    background-color: var(--Verde-Pet);
+    border-radius: 0px;
+}
+
+.buttonNav{
+    width:85%;
+    height: 140px;
+    border-radius: 40px 0px 0px 40px;
+    border: none;
+    background-color:var(--White-Background);
+    margin-left: 15%;
+    cursor: pointer;
+}
+.buttonNavDesactived{
+    width:85%;
+    height: 140px;
+    border-radius: 40px 0px 0px 40px;
+    border: none;
+    background-color:var(--Verde-Pet);
+    margin-left: 15%;
+    cursor: pointer;
+}
+
+.buttonNav img{
+    width:80px;
+}
+
+.buttonNavDesactived img:hover{
+    transform: scale(1.1);
+}
+
+.buttonNavDesactived img{
+    width:80px;
+}
+
+@media (max-width: 1680px){
+    .buttonNav img{
+        width:50px;
+    }
+    .buttonNavDesactived img{
+        width:50px;
+    }
+    .detailsUp div{
+        border-radius: 0px 0px 80px 0px;
+    }
+    .detailsDown div{
+        border-radius: 0px 80px 0px 0px;
+    }
+   
+    .buttonNav{
+        width:75%;
+        height: 120px;
+        border-radius: 40px 0px 0px 40px;
+        border: none;
+        background-color:var(--White-Background);
+        margin-left: 20%;
+        cursor: pointer;
+    }
+    .buttonNavDesactived{
+        width:75%;
+        height: 120px;
+        border-radius: 40px 0px 0px 40px;
+        border: none;
+        background-color:var(--Verde-Pet);
+        margin-left: 20%;
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 1380px){
+    .buttonNav img{
+        width:50px;
+    }
+    .buttonNavDesactived img{
+        width:50px;
+    }
+    .detailsUp{
+        width:5px;
+        height:5px;
+        display: none;
+    }
+    
+    .detailsUpDesactived{
+        width:5px;
+        height:5px;
+        display: none;
+    }
+    .detailsUpDesactived div{
+        width:100%;
+        
+    }
+    .detailsDown{
+        width:5px;
+        height:5px;
+        display: none;
+    }
+   
+    .detailsDownDesactived{
+        width:5px;
+        height:5px;
+        display: none;
+    }
+    .buttonNav{
+        width:75%;
+        height: 120px;
+        border-radius: 40px 0px 0px 40px;
+        border: none;
+        background-color:var(--White-Background);
+        margin-left: 20%;
+        cursor: pointer;
+    }
+    .buttonNavDesactived{
+        width:75%;
+        height: 120px;
+        border-radius: 40px 0px 0px 40px;
+        border: none;
+        background-color:var(--Verde-Pet);
+        margin-left: 20%;
+        cursor: pointer;
+    }
+    
+}
+
+@media (max-width: 1180px){
+    .buttonNav img{
+        width:40px;
+    }
+    .buttonNavDesactived img{
+        width:40px;
+    }
+    .detailsUp{
+        width:5px;
+        height:5px;
+    }
+    
+    .detailsUpDesactived{
+        width:5px;
+        height:5px;
+    }
+    .detailsUpDesactived div{
+        width:100%;
+    }
+    .detailsDown{
+        width:5px;
+        height:5px;
+    }
+   
+    .detailsDownDesactived{
+        width:5px;
+        height:5px;
+    }
+    .buttonNav{
+        width:65%;
+        height: 100px;
+        border-radius: 30px 0px 0px 30px;
+        border: none;
+        background-color:var(--White-Background);
+        margin-left: 25%;
+        cursor: pointer;
+    }
+    .buttonNavDesactived{
+        width:65%;
+        height: 100px;
+        border-radius: 30px 0px 0px 30px;
+        border: none;
+        background-color:var(--Verde-Pet);
+        margin-left: 25%;
+        cursor: pointer;
+    }
+    
+}
+
+@media (max-width: 500px){
+    .buttonNav img{
+        width:30px;
+    }
+    .buttonNavDesactived img{
+        width:30px;
+    }
+    .detailsUp{
+        width:5px;
+        height:5px;
+    }
+    
+    .detailsUpDesactived{
+        width:5px;
+        height:5px;
+    }
+    .detailsUpDesactived div{
+        width:100%;
+    }
+    .detailsDown{
+        width:5px;
+        height:5px;
+    }
+   
+    .detailsDownDesactived{
+        width:5px;
+        height:5px;
+    }
+    .buttonNav{
+        width:35%;
+        height: 75px;
+        border-radius: 20px 0px 0px 20px;
+        border: none;
+        background-color:var(--White-Background);
+        margin-left: 35%;
+        cursor: pointer;
+    }
+    .buttonNavDesactived{
+        width:55%;
+        height: 75px;
+        border-radius: 20px 0px 0px 20px;
+        border: none;
+        background-color:var(--Verde-Pet);
+        margin-left: 25%;
+        cursor: pointer;
+    }
+}
