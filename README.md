@@ -30,12 +30,12 @@
 <br>
 
 # Desenvolvedores
-- <a href="https://github.com/BrunoAngeloti">Bruno Angeloti</a>
-- <a href="https://github.com/aandrelouis">André Louis </a>
-- <a href="https://github.com/andreocunha">André Cunha </a>
+- <a target="_blank" href="https://github.com/BrunoAngeloti">Bruno Angeloti</a>
+- <a target="_blank" href="https://github.com/aandrelouis">André Louis </a>
+- <a target="_blank" href="https://github.com/andreocunha">André Cunha </a>
 
 # Designers
-- <a href="https://github.com/BrunoAngeloti">Bruno Angeloti </a>
-- <a href="https://www.instagram.com/lorenmoraes/">Lorraynne Modolo </a>
-- <a href="https://github.com/Laratb1">Lara Tagarro </a>
-- <a href="https://github.com/victoriapoltronieri">Victoria Louzada </a>
+- <a target="_blank" href="https://github.com/BrunoAngeloti">Bruno Angeloti </a>
+- <a target="_blank" href="https://www.instagram.com/lorenmoraes/">Lorraynne Modolo </a>
+- <a target="_blank" href="https://github.com/Laratb1">Lara Tagarro </a>
+- <a target="_blank" href="https://github.com/victoriapoltronieri">Victoria Louzada </a>
