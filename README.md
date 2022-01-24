@@ -30,12 +30,12 @@
 <br>
 
 # Desenvolvedores
-- Bruno Angeloti
-- André Louis
-- André Cunha
+- <a href="https://github.com/BrunoAngeloti">Bruno Angeloti</a>
+- <a href="https://github.com/aandrelouis">André Louis </a>
+- <a href="https://github.com/andreocunha">André Cunha </a>
 
 # Designers
-- Bruno Angeloti
-- Lorraynne Modolo
-- Lara Tagarro
-- Victoria Louzada
+- <a href="https://github.com/BrunoAngeloti">Bruno Angeloti </a>
+- <a href="https://www.instagram.com/lorenmoraes/">Lorraynne Modolo </a>
+- <a href="https://github.com/Laratb1">Lara Tagarro </a>
+- <a href="https://github.com/victoriapoltronieri">Victoria Louzada </a>
